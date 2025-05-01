@@ -1,4 +1,4 @@
-# 📘 WizeExample API
+# 📘 WizeOrganization API
 
 [![status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/wizeworks/wize-wize-organization)  
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
@@ -14,7 +14,7 @@ It supports dynamic, metadata-driven schemas, full GraphQL CRUD operations, and 
 ## 🚀 Features
 - **Multi-tenant data isolation** via dynamic `tenantId` filtering
 - **Dynamic schema generation** from MongoDB-stored metadata
-- **API key authentication** with scope validation (`examples:read`, `examples:write`, `examples:delete`)
+- **API key authentication** with scope validation (`organizations:read`, `organizations:write`, `organizations:delete`)
 - **GraphQL Yoga** server for query, mutation, and subscription support
 - **MongoDB Atlas** (or local Mongo) as backend database
 - **Pluggable logger/tracer** interfaces for observability
@@ -55,10 +55,10 @@ This API key is validated against stored keys in MongoDB and must be active and 
 
 ---
 
-## 📋 Example GraphQL Query
+## 📋 Organization GraphQL Query
 ```graphql
-query FindExamples($filter: ExampleFilter, $sort: ExampleSort, $paging: PagingInput) {
-  findExample(filter: $filter, sort: $sort, paging: $paging) {
+query FindOrganizations($filter: OrganizationFilter, $sort: OrganizationSort, $paging: PagingInput) {
+  findOrganization(filter: $filter, sort: $sort, paging: $paging) {
     count
     data {
       id
@@ -72,10 +72,10 @@ query FindExamples($filter: ExampleFilter, $sort: ExampleSort, $paging: PagingIn
 
 ---
 
-## ✏️ Example GraphQL Mutation
+## ✏️ Organization GraphQL Mutation
 ```graphql
-mutation InsertExample($input: ExampleInput!) {
-  insertExample(input: $input) {
+mutation InsertOrganization($input: OrganizationInput!) {
+  insertOrganization(input: $input) {
     id
     wize-organization
     createdAt
@@ -85,10 +85,10 @@ mutation InsertExample($input: ExampleInput!) {
 
 ---
 
-## 🔄 Example GraphQL Subscription
+## 🔄 Organization GraphQL Subscription
 ```graphql
-subscription OnExampleCreated {
-  onExampleCreated {
+subscription OnOrganizationCreated {
+  onOrganizationCreated {
     id
     wize-organization
     createdAt
