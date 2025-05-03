@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/wize-works/wize-organization/compare/v1.0.2...v1.0.3) (2025-05-03)
+
+
+### Bug Fixes
+
+* update default database name to 'wize-organization' ([5ee750f](https://github.com/wize-works/wize-organization/commit/5ee750fe41f696a5a5aaaa43746dbf759fe10691))
+
 ## [1.0.2](https://github.com/wize-works/wize-organization/compare/v1.0.1...v1.0.2) (2025-05-03)
 
 
