@@ -1,3 +1,31 @@
+## [1.0.4](https://github.com/wize-works/wize-organization/compare/v1.0.3...v1.0.4) (2025-05-03)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo to version 1.26.0 ([1be9656](https://github.com/wize-works/wize-organization/commit/1be9656af5c895c32f6410af17012152ee8b4b26))
+
+## [1.0.3](https://github.com/wize-works/wize-organization/compare/v1.0.2...v1.0.3) (2025-05-03)
+
+
+### Bug Fixes
+
+* update default database name to 'wize-organization' ([5ee750f](https://github.com/wize-works/wize-organization/commit/5ee750fe41f696a5a5aaaa43746dbf759fe10691))
+
+## [1.0.2](https://github.com/wize-works/wize-organization/compare/v1.0.1...v1.0.2) (2025-05-03)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo to version 1.25.0 ([9c32bfa](https://github.com/wize-works/wize-organization/commit/9c32bfae7ffc15fd5e7beba815ab5164d0898358))
+
+## [1.0.1](https://github.com/wize-works/wize-organization/compare/v1.0.0...v1.0.1) (2025-05-01)
+
+
+### Bug Fixes
+
+* update README to reflect correct API name and authentication scopes ([0499850](https://github.com/wize-works/wize-organization/commit/049985027ec66d57ccee8399f2f8ab62f0edbba8))
+
 # 1.0.0 (2025-05-01)
 
 
