@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/wize-works/wize-organization/compare/v1.0.5...v1.1.0) (2025-05-06)
+
+
+### Bug Fixes
+
+* correct indentation in deploy.yml for AKS admin login step ([958e7d6](https://github.com/wize-works/wize-organization/commit/958e7d6ca56ef486d2375f4b8657f7184033cd20))
+* update deploy.yml for non-interactive AKS auth ([667c264](https://github.com/wize-works/wize-organization/commit/667c264998e933694896d949a27b97744d4e7156))
+
+
+### Features
+
+* update @wizeworks/graphql-factory-mongo dependency to version 1.31.0 ([2326dc7](https://github.com/wize-works/wize-organization/commit/2326dc72e79f15b6ad1ccef163fea636966919c0))
+
+## [1.0.5](https://github.com/wize-works/wize-organization/compare/v1.0.4...v1.0.5) (2025-05-04)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo dependency to version 1.27.0 ([c063799](https://github.com/wize-works/wize-organization/commit/c0637998d3ca9000e98d99b132fac9d96bf0db68))
+
 ## [1.0.4](https://github.com/wize-works/wize-organization/compare/v1.0.3...v1.0.4) (2025-05-03)
 
 
