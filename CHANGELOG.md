@@ -1,3 +1,24 @@
+## [1.2.3](https://github.com/wize-works/wize-organization/compare/v1.2.2...v1.2.3) (2025-05-09)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo dependency to version 1.33.5 ([5e91d55](https://github.com/wize-works/wize-organization/commit/5e91d555fd7766156095cb9b5594e1184cf84dd4))
+
+## [1.2.2](https://github.com/wize-works/wize-organization/compare/v1.2.1...v1.2.2) (2025-05-09)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo dependency to version 1.33.4 ([bb3d8cc](https://github.com/wize-works/wize-organization/commit/bb3d8cc014465b48e801eeae6c75a269a9bcadff))
+
+## [1.2.1](https://github.com/wize-works/wize-organization/compare/v1.2.0...v1.2.1) (2025-05-09)
+
+
+### Bug Fixes
+
+* update @wizeworks/graphql-factory-mongo dependency to version 1.33.3 ([ed87bc6](https://github.com/wize-works/wize-organization/commit/ed87bc62242836f4c754422a0d4bf896d9e998ce))
+
 # [1.2.0](https://github.com/wize-works/wize-organization/compare/v1.1.0...v1.2.0) (2025-05-06)
 
 
